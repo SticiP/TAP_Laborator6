@@ -67,7 +67,7 @@ public class RotatingController {
 
     private void scale()
     {
-        if (currentScale < targetScale) {
+        if (currentScale < targetScale) { //
             if(currentScale > 2)
             {
                 currentScale -= 0.05;
