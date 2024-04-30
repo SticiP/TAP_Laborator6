@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Pane xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.tap_laborator6.RotatingController"
+      prefWidth="600" prefHeight="400">
+    <children>
+        <Rectangle fx:id="rectangle" width="100" height="50" fill="BLUE" translateY="150" translateX="200"/>
+    </children>
+</Pane>
